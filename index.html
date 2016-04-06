@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="flexslider.css">
+
+</head>
+<body>
+<!-- Place somewhere in the <body> of your page -->
+<div class="flexslider">
+  <ul class="slides">
+    <li>
+      <img src="https://tweakyourslides.files.wordpress.com/2013/05/real-simple-images-031.png" />
+    </li>
+    <li>
+      <img src="https://tweakyourslides.files.wordpress.com/2013/05/real-simple-images-031.png" />
+    </li>
+    <li>
+      <img src="https://tweakyourslides.files.wordpress.com/2013/05/real-simple-images-031.png" />
+    </li>
+    <li>
+      <img src="https://tweakyourslides.files.wordpress.com/2013/05/real-simple-images-031.png" />
+    </li>
+  </ul>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="jquery.flexslider-min.js" ></script>
+<script>
+	// Can also be used with $(document).ready()
+	$(window).load(function() {
+	  $('.flexslider').flexslider({
+	    animation: "fade"
+	  });
+	});
+
+</script>
+</body>
+
+</html>
